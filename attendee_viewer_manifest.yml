@@ -7,4 +7,3 @@ applications:
   - route: attendee-viewer-invitational-justiciarship.cfapps.io
   services:
   - config-server
-  - eureka-server
