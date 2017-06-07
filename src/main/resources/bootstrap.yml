@@ -11,8 +11,3 @@ management:
   security:
     enabled: false
     
-      
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${vcap.services.eureka-server.credentials.uri}
