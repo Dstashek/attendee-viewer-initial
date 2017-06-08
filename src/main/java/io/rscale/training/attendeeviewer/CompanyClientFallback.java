@@ -1,7 +1,10 @@
-package io.rscale.training.companyviewer;
+package io.rscale.training.attendeeviewer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.hateoas.PagedResources;
+import org.springframework.web.bind.annotation.Override;
+import org.springframework.web.bind.annotation.Component;
 
 
 @Component
