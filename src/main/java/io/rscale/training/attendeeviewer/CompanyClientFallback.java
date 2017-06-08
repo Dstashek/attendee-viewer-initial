@@ -3,8 +3,12 @@ package io.rscale.training.attendeeviewer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.hateoas.PagedResources;
-import org.springframework.web.bind.annotation.Override;
-import org.springframework.web.bind.annotation.Component;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+import org.springframework.hateoas.PagedResources.PageMetadata;
+import org.springframework.hateoas.Link;
+import java.util.List;
+import java.util.ArrayList;
 
 
 @Component

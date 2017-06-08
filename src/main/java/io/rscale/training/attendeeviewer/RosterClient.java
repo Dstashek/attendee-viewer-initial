@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "roster", fallback="RosterClientFallback.class")
+@FeignClient(name = "roster", fallback = RosterClientFallback.class)
 public interface RosterClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/people")
