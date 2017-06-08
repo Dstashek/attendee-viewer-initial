@@ -6,17 +6,19 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.security.oauth.*;
+import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.web.builders;
+import org.springframework.stereotype.Component;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 
 
-@SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
 @EnableEurekaClient
 @EnableCircuitBreaker
 @EnableOAuth2Sso
+@SpringBootApplication
 public class AttendeeViewerApplication extends WebSecurityConfigurerAdapter {
 
 	public static void main(String[] args) {
