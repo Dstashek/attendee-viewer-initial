@@ -7,3 +7,6 @@ applications:
   - route: attendee-viewer-invitational-justiciarship.cfapps.io
   services:
   - config-server
+  env:
+  - CLIENT_ID: e97fb9d8abf0d8633b0a
+  - CLIENT_SECRET: 19f17c550411e761894ac7dff091f034bcbb65fc
