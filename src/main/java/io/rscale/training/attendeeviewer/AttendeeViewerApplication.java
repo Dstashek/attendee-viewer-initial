@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.security.oauth.spring-security-oauth;
+import org.springframework.security.oauth.*;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders;
 
